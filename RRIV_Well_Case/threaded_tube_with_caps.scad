@@ -19,12 +19,12 @@ inch = 25.4;  // OpenSCAD works in mm; all parameters below are inches
 
 /* [Tube Dimensions] */
 tube_length      = 4.0  * inch;
-tube_id          = 2.75098425  * inch;
-tube_od          = 3.0  * inch;
+tube_id          = 2.95  * inch;
+tube_od          = 3.15  * inch;
 
 /* [Cap Dimensions] */
 cap_total_height = 1.5  * inch;
-cap_bottom_hole  = 1.05 * inch;   // center hole in bottom cap
+cap_bottom_hole  = 0.65 * inch;   // center hole in bottom cap
 cap_top_hole     = 0.65 * inch;   // center hole in top cap
 dome_flat        = 0.15 * inch;   // amount to truncate off dome tip (flat spot for printing)
 

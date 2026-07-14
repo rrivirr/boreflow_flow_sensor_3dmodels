@@ -1,7 +1,7 @@
 difference()
 {
     translate([0,0,6]) {
-        cube([70, 70, 19], center=true);
+        cube([80, 80, 25], center=true);
     }
     // thing being subtracted
     union() {
@@ -9,7 +9,7 @@ difference()
         {
             difference()
             {
-                cylinder(h=10.92, r1=30, r2=30, center=true);
+                cylinder(h=15.92, r1=35, r2=35, center=true);
                 translate([0,0,14.5]) {
                     difference(){
                         difference()
